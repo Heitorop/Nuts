@@ -1,0 +1,944 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css" />
+    <link rel="stylesheet" href="css/style.min.css">
+    <title>Nut</title>
+</head>
+
+<body>
+    <div class="app">
+        <div class="app-wrapper">
+            <div class="header">
+    <div class="header-wrapper">
+        <div class="header-top">
+            <div class="socialnet-wrapper">
+                <a href="">
+                    <svg width="15" height="15" viewBox="0 0 15 15" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <path
+                            d="M3.95336 7.989H5.5976V14.7581C5.5976 14.8917 5.70589 15 5.83954 15H8.62741C8.76105 15 8.86935 14.8917 8.86935 14.7581V8.02089H10.7595C10.8824 8.02089 10.9858 7.92866 10.9999 7.80658L11.287 5.31455C11.2948 5.24598 11.2731 5.17732 11.2272 5.12589C11.1813 5.0744 11.1156 5.04494 11.0467 5.04494H8.86944V3.48281C8.86944 3.0119 9.12299 2.77311 9.62312 2.77311C9.69439 2.77311 11.0467 2.77311 11.0467 2.77311C11.1803 2.77311 11.2886 2.66477 11.2886 2.53118V0.243726C11.2886 0.110081 11.1803 0.00179032 11.0467 0.00179032H9.08481C9.07097 0.0011129 9.04025 0 8.99496 0C8.65455 0 7.47134 0.0668225 6.5367 0.926661C5.50112 1.8795 5.64507 3.02037 5.67947 3.21818V5.04489H3.95336C3.81972 5.04489 3.71143 5.15318 3.71143 5.28682V7.74702C3.71143 7.88066 3.81972 7.989 3.95336 7.989Z"
+                            fill="#93B474" />
+                    </svg>
+                </a>
+                <a href="">
+                    <svg width="15" height="15" viewBox="0 0 15 15" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <path
+                            d="M10.947 0H4.05296C1.81816 0 0 1.81816 0 4.05296V10.947C0 13.1818 1.81816 15 4.05296 15H10.947C13.1818 15 15 13.1818 15 10.947V4.05296C15 1.81816 13.1818 0 10.947 0ZM13.7882 10.947C13.7882 12.5136 12.5137 13.7882 10.947 13.7882H4.05296C2.48637 13.7882 1.21184 12.5137 1.21184 10.947V4.05296C1.21184 2.48637 2.48634 1.21184 4.05296 1.21184H10.947C12.5136 1.21184 13.7882 2.48634 13.7882 4.05296V10.947Z"
+                            fill="#323232" />
+                        <path
+                            d="M10.857 6.97678C10.7504 6.25763 10.4223 5.60583 9.9082 5.09176C9.39413 4.57771 8.74233 4.24959 8.02321 4.14298C7.69579 4.09443 7.36382 4.09443 7.03643 4.14298C6.14768 4.27478 5.36349 4.74476 4.82827 5.46637C4.29304 6.18799 4.07082 7.07486 4.20263 7.96355C4.33444 8.85227 4.80442 9.63646 5.52603 10.1717C6.11185 10.6062 6.80648 10.8344 7.5227 10.8344C7.68873 10.8344 7.85595 10.8221 8.02318 10.7973C8.91193 10.6655 9.69612 10.1955 10.2313 9.47393C10.7666 8.75234 10.9888 7.8655 10.857 6.97678ZM7.84543 9.59858C7.27693 9.68302 6.70959 9.54078 6.24796 9.19839C5.78633 8.85599 5.48569 8.35432 5.4014 7.78581C5.31708 7.2173 5.4592 6.64997 5.8016 6.18834C6.14402 5.72671 6.64567 5.42606 7.2142 5.34175C7.31891 5.32622 7.42435 5.31845 7.52979 5.31845C7.63523 5.31845 7.7407 5.32622 7.84541 5.34177C8.78967 5.48178 9.5182 6.21028 9.65824 7.15458C9.83226 8.32815 9.01907 9.42456 7.84543 9.59858Z"
+                            fill="#323232" />
+                        <path
+                            d="M11.7202 3.27978C11.6074 3.16695 11.4512 3.10229 11.2917 3.10229C11.1323 3.10229 10.9761 3.16692 10.8633 3.27978C10.7504 3.39263 10.6858 3.54855 10.6858 3.70824C10.6858 3.86794 10.7504 4.02386 10.8633 4.13671C10.9761 4.24953 11.1323 4.31419 11.2917 4.31419C11.4512 4.31419 11.6074 4.24956 11.7202 4.13671C11.833 4.02386 11.8977 3.86768 11.8977 3.70824C11.8977 3.54878 11.833 3.3926 11.7202 3.27978Z"
+                            fill="#323232" />
+                    </svg>
+                </a>
+                <a href="">
+                    <svg width="18" height="18" viewBox="0 0 18 18" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <path
+                            d="M17.2984 14.2464C16.6487 15.0188 15.4491 15.3339 13.1581 15.3339H4.84177C2.49834 15.3339 1.27841 14.9985 0.631103 14.1762C0 13.3744 0 12.1931 0 10.5581V7.44185C0 4.27437 0.7488 2.66616 4.84177 2.66616H13.1581C15.1449 2.66616 16.2458 2.94417 16.958 3.62579C17.6884 4.32477 18 5.46603 18 7.44185V10.5581C18 12.2823 17.9512 13.4706 17.2984 14.2464ZM11.5561 8.56975L7.77966 6.59608C7.69523 6.55195 7.60291 6.53006 7.5107 6.53006C7.4063 6.53006 7.30214 6.55817 7.20987 6.61403C7.03614 6.7193 6.93006 6.9076 6.93006 7.11071V11.0454C6.93006 11.2482 7.03585 11.4363 7.20923 11.5416C7.38267 11.6469 7.59838 11.6541 7.77832 11.5607L11.5547 9.5997C11.7469 9.49995 11.8675 9.3016 11.8678 9.08519C11.868 8.86861 11.7479 8.66997 11.5561 8.56975Z"
+                            fill="#323232" />
+                    </svg>
+                </a>
+            </div>
+            <div class="sale-wrapper">
+                <div class="sale">
+                    <p>Ваша персональная скидка -5%</p>
+                </div>
+                <div class="reg-wrapper">
+                    <img src="./img/man-user.png" alt="">
+                    <a href="">Вход</a>
+                    <a href="">Регистрация</a>
+                </div>
+                <div class="number-container">
+                    <img src="./img/telephone-handle-silhouette.png" alt="" class="number-container-img">
+                    <p class="number-container-text"><span>+38 (044)</span> 750-50-11</p>
+                </div>
+                <div class="header-text">
+                    <p>Заказать звонок</p>
+                </div>
+                <div class="header-leng">
+                    <select name="leanguage" id="leng">
+                        <option value="Ru">Ru</option>
+                        <option value="En">En</option>
+                        <option value="Uk">Uk</option>
+                    </select>
+                </div>
+            </div>
+
+        </div>
+        <div class="header-main">
+            <div class="nav-btn">
+                <button class="nav-btn-open">
+                    <img src="./img/menu.svg" alt="">
+                </button>
+            </div>
+            <div id="nav">
+                <div class="mibile-log">
+                    <img src="./img/MobileLogo.png" alt="">
+                    <div class="nav-btn">
+                        <button class="nav-btn-close">
+                            <img src="./img/close-button.svg" alt="">
+                        </button>
+                    </div>
+                </div>
+                <div class="nav-reg-field">
+                    <div class="reg-wrapper">
+                        <img src="./img/man-user.png" alt="">
+                        <a href="">Вход</a>
+                        <a href="">Регистрация</a>
+                    </div>
+                    <div class="socialnet-wrapper">
+                        <a href="https://www.facebook.com/">
+                            <svg width="15" height="15" viewBox="0 0 15 15" fill="none"
+                                xmlns="http://www.w3.org/2000/svg">
+                                <path
+                                    d="M3.95336 7.989H5.5976V14.7581C5.5976 14.8917 5.70589 15 5.83954 15H8.62741C8.76105 15 8.86935 14.8917 8.86935 14.7581V8.02089H10.7595C10.8824 8.02089 10.9858 7.92866 10.9999 7.80658L11.287 5.31455C11.2948 5.24598 11.2731 5.17732 11.2272 5.12589C11.1813 5.0744 11.1156 5.04494 11.0467 5.04494H8.86944V3.48281C8.86944 3.0119 9.12299 2.77311 9.62312 2.77311C9.69439 2.77311 11.0467 2.77311 11.0467 2.77311C11.1803 2.77311 11.2886 2.66477 11.2886 2.53118V0.243726C11.2886 0.110081 11.1803 0.00179032 11.0467 0.00179032H9.08481C9.07097 0.0011129 9.04025 0 8.99496 0C8.65455 0 7.47134 0.0668225 6.5367 0.926661C5.50112 1.8795 5.64507 3.02037 5.67947 3.21818V5.04489H3.95336C3.81972 5.04489 3.71143 5.15318 3.71143 5.28682V7.74702C3.71143 7.88066 3.81972 7.989 3.95336 7.989Z"
+                                    fill="#93B474" />
+                            </svg>
+                        </a>
+                        <a href="https://www.instagram.com/_.verbetskiy._/">
+                            <svg width="15" height="15" viewBox="0 0 15 15" fill="none"
+                                xmlns="http://www.w3.org/2000/svg">
+                                <path
+                                    d="M10.947 0H4.05296C1.81816 0 0 1.81816 0 4.05296V10.947C0 13.1818 1.81816 15 4.05296 15H10.947C13.1818 15 15 13.1818 15 10.947V4.05296C15 1.81816 13.1818 0 10.947 0ZM13.7882 10.947C13.7882 12.5136 12.5137 13.7882 10.947 13.7882H4.05296C2.48637 13.7882 1.21184 12.5137 1.21184 10.947V4.05296C1.21184 2.48637 2.48634 1.21184 4.05296 1.21184H10.947C12.5136 1.21184 13.7882 2.48634 13.7882 4.05296V10.947Z"
+                                    fill="#323232" />
+                                <path
+                                    d="M10.857 6.97678C10.7504 6.25763 10.4223 5.60583 9.9082 5.09176C9.39413 4.57771 8.74233 4.24959 8.02321 4.14298C7.69579 4.09443 7.36382 4.09443 7.03643 4.14298C6.14768 4.27478 5.36349 4.74476 4.82827 5.46637C4.29304 6.18799 4.07082 7.07486 4.20263 7.96355C4.33444 8.85227 4.80442 9.63646 5.52603 10.1717C6.11185 10.6062 6.80648 10.8344 7.5227 10.8344C7.68873 10.8344 7.85595 10.8221 8.02318 10.7973C8.91193 10.6655 9.69612 10.1955 10.2313 9.47393C10.7666 8.75234 10.9888 7.8655 10.857 6.97678ZM7.84543 9.59858C7.27693 9.68302 6.70959 9.54078 6.24796 9.19839C5.78633 8.85599 5.48569 8.35432 5.4014 7.78581C5.31708 7.2173 5.4592 6.64997 5.8016 6.18834C6.14402 5.72671 6.64567 5.42606 7.2142 5.34175C7.31891 5.32622 7.42435 5.31845 7.52979 5.31845C7.63523 5.31845 7.7407 5.32622 7.84541 5.34177C8.78967 5.48178 9.5182 6.21028 9.65824 7.15458C9.83226 8.32815 9.01907 9.42456 7.84543 9.59858Z"
+                                    fill="#323232" />
+                                <path
+                                    d="M11.7202 3.27978C11.6074 3.16695 11.4512 3.10229 11.2917 3.10229C11.1323 3.10229 10.9761 3.16692 10.8633 3.27978C10.7504 3.39263 10.6858 3.54855 10.6858 3.70824C10.6858 3.86794 10.7504 4.02386 10.8633 4.13671C10.9761 4.24953 11.1323 4.31419 11.2917 4.31419C11.4512 4.31419 11.6074 4.24956 11.7202 4.13671C11.833 4.02386 11.8977 3.86768 11.8977 3.70824C11.8977 3.54878 11.833 3.3926 11.7202 3.27978Z"
+                                    fill="#323232" />
+                            </svg>
+                        </a>
+                        <a href="https://www.youtube.com/">
+                            <svg width="18" height="18" viewBox="0 0 18 18" fill="none"
+                                xmlns="http://www.w3.org/2000/svg">
+                                <path
+                                    d="M17.2984 14.2464C16.6487 15.0188 15.4491 15.3339 13.1581 15.3339H4.84177C2.49834 15.3339 1.27841 14.9985 0.631103 14.1762C0 13.3744 0 12.1931 0 10.5581V7.44185C0 4.27437 0.7488 2.66616 4.84177 2.66616H13.1581C15.1449 2.66616 16.2458 2.94417 16.958 3.62579C17.6884 4.32477 18 5.46603 18 7.44185V10.5581C18 12.2823 17.9512 13.4706 17.2984 14.2464ZM11.5561 8.56975L7.77966 6.59608C7.69523 6.55195 7.60291 6.53006 7.5107 6.53006C7.4063 6.53006 7.30214 6.55817 7.20987 6.61403C7.03614 6.7193 6.93006 6.9076 6.93006 7.11071V11.0454C6.93006 11.2482 7.03585 11.4363 7.20923 11.5416C7.38267 11.6469 7.59838 11.6541 7.77832 11.5607L11.5547 9.5997C11.7469 9.49995 11.8675 9.3016 11.8678 9.08519C11.868 8.86861 11.7479 8.66997 11.5561 8.56975Z"
+                                    fill="#323232" />
+                            </svg>
+                        </a>
+                    </div>
+                </div>
+                <div class="nav-wrapper">
+                    <a class="nav__item" href="#store">Магазин</a>
+                    <a class="nav__item" href="#prod">О производтсве</a>
+                    <a class="nav__item" href="">Оплата и доставка</a>
+                    <a class="nav__item" href="">Оптовым и корпоративным клиентам</a>
+                    <a class="nav__item" href="#news">Новости и статьи</a>
+                    <a class="nav__item" href="#cont">Контакты</a>
+                </div>
+            </div>
+            <div class="header-logo">
+                <img src="./img/logo.png" alt="">
+            </div>
+            <div class="header-main-wrapper">
+                <div class="header-contacts">
+                    <div class="header-contacts_img-wrapper">
+                        <img src="./img/viber.png" alt="">
+                        <img src="./img/telegram.png" alt="">
+                        <img src="./img/viber.png" alt="">
+                    </div>
+                    <div class="header-contacts_num">
+                        <p><span>+38 (044)</span> 750-50-11</p>
+                        <p><span>+38 (097)</span> 775-50-51</p>
+                    </div>
+                </div>
+                <div class="header-order">
+                    <button>Заказать звонок</button>
+                    <p>Ждём вашего звонка ежедневно с 9 до 18</p>
+                </div>
+                <div class="header-purchase">
+                    <img src="./img/bag.png" alt="">
+                </div>
+            </div>
+            <div class="header-purchase2">
+                <img src="./img/bag.png" alt="">
+            </div>
+        </div>
+        <div class="sale2">
+            <p>Ваша персональная скидка -5%</p>
+        </div>
+    </div>
+</div>
+            <div class="main-genpage">
+                <div class="firstslide">
+                    <div class="firstslide-bg"></div>
+                    <div class="firstslide-content-wrapper">
+                        <div class="firstslide-content">
+                            <h1>Орех Причерноморья</h1>
+                            <p>Единственный в Украине сад совместного
+                                выращивание фундука и грецкого ореха</p>
+                            <a href="">
+                                <svg width="61" height="61" viewBox="0 0 61 61" fill="none"
+                                    xmlns="http://www.w3.org/2000/svg">
+                                    <circle cx="30.5" cy="30.5" r="29.5" stroke="white" stroke-width="2" />
+                                    <path d="M38.2745 30.5001L27.5098 38.2688V22.7313L38.2745 30.5001Z" fill="white" />
+                                </svg>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                <div id="store" class="secondslide">
+                    <h1>Продукция</h1>
+                    <p class="secondslide-text">Экологически чистые, качественные ядра грецкого ореха и
+                        фундука,
+                        а также плоды шиповника в удобной, надежной, вакуумной упаковке
+                        разного объема</p>
+                    <div class="secondslide-wrapper">
+                        <div class="swiper mySwiper">
+                            <div class="swiper-wrapper">
+                                <div class="swiper-slide">
+                                    <div class="slide-img">
+                                        <div class="stock">
+                                            <img src="./img/акция.png" alt="">
+                                        </div>
+                                        <div class="zoom">
+                                            <img src="./img/zoom.png" alt="">
+                                        </div>
+                                        <div class="swiper-button-prev">
+                                            <svg width="23" height="23" viewBox="0 0 23 23" fill="none"
+                                                xmlns="http://www.w3.org/2000/svg">
+                                                <path
+                                                    d="M9.58332 21.0833L10.925 19.7417L3.64164 12.4583H23V10.5417H3.64164L10.925 3.25832L9.58332 1.91668L2.53719e-07 11.5L9.58332 21.0833Z"
+                                                    fill="#337D5A" />
+                                            </svg>
+                                        </div>
+                                        <img src="./img/KOND.png" alt="">
+                                        <div class="swiper-button-next">
+                                            <svg width="23" height="23" viewBox="0 0 23 23" fill="none"
+                                                xmlns="http://www.w3.org/2000/svg">
+                                                <path
+                                                    d="M13.4167 21.0833L12.075 19.7417L19.3584 12.4583H0V10.5417H19.3584L12.075 3.25831L13.4167 1.91668L23 11.5L13.4167 21.0833Z"
+                                                    fill="#337D5A" />
+                                            </svg>
+                                        </div>
+                                    </div>
+                                    <div class="slide-info">
+                                        <div class="slide-info-wrapper">
+                                            <h5>Грецкий орех</h5>
+                                            <p class="art">Арт: 0091</p>
+                                            <p class="infnuts">Орех сладкий,классический,<br>очищенный</p>
+                                            <div class="pac-info">
+                                                <div class="pac-info_weight">
+                                                    <img src="./img/weigher.png" alt="">
+                                                    <div class="pac-info_weight-text">
+                                                        <p>Масса:</p>
+                                                        <p class="weight-num">40г</p>
+                                                    </div>
+                                                </div>
+                                                <div class="pac-info_pac">
+                                                    <img src="./img/pac.png" alt="">
+                                                    <div class="pac-info_pac-text">
+                                                        <p>Упаковка</p>
+                                                        <p class="pac-type">вакуумная</p>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="price">
+                                            <p>Цена:
+                                                <span>
+                                                    19 грн.
+                                                </span>
+                                                <span>
+                                                    21 грн.
+                                                </span>
+                                            </p>
+                                            <button>
+                                                Купить
+                                            </button>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="swiper-slide">
+                                    <div class="slide-img">
+                                        <div class="stock">
+                                            <img src="./img/новинка.png" alt="">
+                                        </div>
+                                        <div class="zoom">
+                                            <img src="./img/zoom.png" alt="">
+                                        </div>
+                                        <div class="swiper-button-prev">
+                                            <svg width="23" height="23" viewBox="0 0 23 23" fill="none"
+                                                xmlns="http://www.w3.org/2000/svg">
+                                                <path
+                                                    d="M9.58332 21.0833L10.925 19.7417L3.64164 12.4583H23V10.5417H3.64164L10.925 3.25832L9.58332 1.91668L2.53719e-07 11.5L9.58332 21.0833Z"
+                                                    fill="#337D5A" />
+                                            </svg>
+                                        </div>
+                                        <img src="./img/SOLODKY40g.png" alt="">
+                                        <div class="swiper-button-next">
+                                            <svg width="23" height="23" viewBox="0 0 23 23" fill="none"
+                                                xmlns="http://www.w3.org/2000/svg">
+                                                <path
+                                                    d="M13.4167 21.0833L12.075 19.7417L19.3584 12.4583H0V10.5417H19.3584L12.075 3.25831L13.4167 1.91668L23 11.5L13.4167 21.0833Z"
+                                                    fill="#337D5A" />
+                                            </svg>
+                                        </div>
+                                    </div>
+                                    <div class="slide-info">
+                                        <div class="slide-info-wrapper">
+                                            <h5>Грецкий орех</h5>
+                                            <p class="art">Арт: 0091</p>
+                                            <p class="infnuts">Орех сладкий,классический,<br>очищенный</p>
+                                            <div class="pac-info">
+                                                <div class="pac-info_weight">
+                                                    <img src="./img/weigher.png" alt="">
+                                                    <div class="pac-info_weight-text">
+                                                        <p>Масса:</p>
+                                                        <p class="weight-num">40г</p>
+                                                    </div>
+                                                </div>
+                                                <div class="pac-info_pac">
+                                                    <img src="./img/pac.png" alt="">
+                                                    <div class="pac-info_pac-text">
+                                                        <p>Упаковка</p>
+                                                        <p class="pac-type">вакуумная</p>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="price">
+                                            <p>Цена:
+                                                <span>
+                                                    от 21 грн.
+                                                </span>
+                                                <span>
+                                                </span>
+                                            </p>
+                                            <button>
+                                                Купить
+                                            </button>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="swiper-slide">
+                                    <div class="slide-img">
+                                        <div class="zoom">
+                                            <img src="./img/zoom.png" alt="">
+                                        </div>
+                                        <div class="swiper-button-prev">
+                                            <svg width="23" height="23" viewBox="0 0 23 23" fill="none"
+                                                xmlns="http://www.w3.org/2000/svg">
+                                                <path
+                                                    d="M9.58332 21.0833L10.925 19.7417L3.64164 12.4583H23V10.5417H3.64164L10.925 3.25832L9.58332 1.91668L2.53719e-07 11.5L9.58332 21.0833Z"
+                                                    fill="#337D5A" />
+                                            </svg>
+                                        </div>
+                                        <img src="./img/SOLONY.png" alt="">
+                                        <div class="swiper-button-next">
+                                            <svg width="23" height="23" viewBox="0 0 23 23" fill="none"
+                                                xmlns="http://www.w3.org/2000/svg">
+                                                <path
+                                                    d="M13.4167 21.0833L12.075 19.7417L19.3584 12.4583H0V10.5417H19.3584L12.075 3.25831L13.4167 1.91668L23 11.5L13.4167 21.0833Z"
+                                                    fill="#337D5A" />
+                                            </svg>
+                                        </div>
+                                    </div>
+                                    <div class="slide-info">
+                                        <div class="slide-info-wrapper">
+                                            <h5>Грецкий орех</h5>
+                                            <p class="art">Арт: 0091</p>
+                                            <p class="infnuts">Орех сладкий,классический,<br>очищенный</p>
+                                            <div class="pac-info">
+                                                <div class="pac-info_weight">
+                                                    <img src="./img/weigher.png" alt="">
+                                                    <div class="pac-info_weight-text">
+                                                        <p>Масса:</p>
+                                                        <p class="weight-num">40г</p>
+                                                    </div>
+                                                </div>
+                                                <div class="pac-info_pac">
+                                                    <img src="./img/pac.png" alt="">
+                                                    <div class="pac-info_pac-text">
+                                                        <p>Упаковка</p>
+                                                        <p class="pac-type">вакуумная</p>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="price">
+                                            <p>Цена:
+                                                <span>
+                                                    от 21 грн.
+                                                </span>
+                                                <span>
+                                                </span>
+                                            </p>
+                                            <button>
+                                                Купить
+                                            </button>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="swiper mySecSwiper">
+                            <div class="swiper-wrapper">
+                                <div class="swiper-slide">
+                                    <div class="slide-img">
+                                        <div class="zoom">
+                                            <img src="./img/zoom.png" alt="">
+                                        </div>
+                                        <div class="swiper-button-prev-unique">
+                                            <svg width="23" height="23" viewBox="0 0 23 23" fill="none"
+                                                xmlns="http://www.w3.org/2000/svg">
+                                                <path
+                                                    d="M9.58332 21.0833L10.925 19.7417L3.64164 12.4583H23V10.5417H3.64164L10.925 3.25832L9.58332 1.91668L2.53719e-07 11.5L9.58332 21.0833Z"
+                                                    fill="#337D5A" />
+                                            </svg>
+                                        </div>
+                                        <img src="./img/йогурт1.png" alt="">
+                                        <div class="swiper-button-next-unique">
+                                            <svg width="23" height="23" viewBox="0 0 23 23" fill="none"
+                                                xmlns="http://www.w3.org/2000/svg">
+                                                <path
+                                                    d="M13.4167 21.0833L12.075 19.7417L19.3584 12.4583H0V10.5417H19.3584L12.075 3.25831L13.4167 1.91668L23 11.5L13.4167 21.0833Z"
+                                                    fill="#337D5A" />
+                                            </svg>
+                                        </div>
+                                    </div>
+                                    <div class="slide-info">
+                                        <div class="slide-info-wrapper">
+                                            <h5>Грецкий орех</h5>
+                                            <p class="art">Арт: 0091</p>
+                                            <p class="infnuts">Орех сладкий,классический,<br>очищенный</p>
+                                            <div class="pac-info">
+                                                <div class="pac-info_weight">
+                                                    <img src="./img/weigher.png" alt="">
+                                                    <div class="pac-info_weight-text">
+                                                        <p>Масса:</p>
+                                                        <p class="weight-num">40г</p>
+                                                    </div>
+                                                </div>
+                                                <div class="pac-info_pac">
+                                                    <img src="./img/pac.png" alt="">
+                                                    <div class="pac-info_pac-text">
+                                                        <p>Упаковка</p>
+                                                        <p class="pac-type">вакуумная</p>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="price">
+                                            <p>Цена:
+                                                <span>
+                                                    19 грн.
+                                                </span>
+                                                <span>
+                                                    21 грн.
+                                                </span>
+                                            </p>
+                                            <button>
+                                                Купить
+                                            </button>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="swiper-slide">
+                                    <div class="slide-img">
+                                        <div class="zoom">
+                                            <img src="./img/zoom.png" alt="">
+                                        </div>
+                                        <div class="swiper-button-prev-unique">
+                                            <svg width="23" height="23" viewBox="0 0 23 23" fill="none"
+                                                xmlns="http://www.w3.org/2000/svg">
+                                                <path
+                                                    d="M9.58332 21.0833L10.925 19.7417L3.64164 12.4583H23V10.5417H3.64164L10.925 3.25832L9.58332 1.91668L2.53719e-07 11.5L9.58332 21.0833Z"
+                                                    fill="#337D5A" />
+                                            </svg>
+                                        </div>
+                                        <img src="./img/йогурт2.png" alt="">
+                                        <div class="swiper-button-next-unique">
+                                            <svg width="23" height="23" viewBox="0 0 23 23" fill="none"
+                                                xmlns="http://www.w3.org/2000/svg">
+                                                <path
+                                                    d="M13.4167 21.0833L12.075 19.7417L19.3584 12.4583H0V10.5417H19.3584L12.075 3.25831L13.4167 1.91668L23 11.5L13.4167 21.0833Z"
+                                                    fill="#337D5A" />
+                                            </svg>
+                                        </div>
+                                    </div>
+                                    <div class="slide-info">
+                                        <div class="slide-info-wrapper">
+                                            <h5>Грецкий орех</h5>
+                                            <p class="art">Арт: 0091</p>
+                                            <p class="infnuts">Орех сладкий,классический,<br>очищенный</p>
+                                            <div class="pac-info">
+                                                <div class="pac-info_weight">
+                                                    <img src="./img/weigher.png" alt="">
+                                                    <div class="pac-info_weight-text">
+                                                        <p>Масса:</p>
+                                                        <p class="weight-num">40г</p>
+                                                    </div>
+                                                </div>
+                                                <div class="pac-info_pac">
+                                                    <img src="./img/pac.png" alt="">
+                                                    <div class="pac-info_pac-text">
+                                                        <p>Упаковка</p>
+                                                        <p class="pac-type">вакуумная</p>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="price">
+                                            <p>Цена:
+                                                <span>
+                                                    от 21 грн.
+                                                </span>
+                                                <span>
+                                                </span>
+                                            </p>
+                                            <button>
+                                                Купить
+                                            </button>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="swiper-slide">
+                                    <div class="slide-img">
+                                        <div class="zoom">
+                                            <img src="./img/zoom.png" alt="">
+                                        </div>
+                                        <div class="swiper-button-prev-unique">
+                                            <svg width="23" height="23" viewBox="0 0 23 23" fill="none"
+                                                xmlns="http://www.w3.org/2000/svg">
+                                                <path
+                                                    d="M9.58332 21.0833L10.925 19.7417L3.64164 12.4583H23V10.5417H3.64164L10.925 3.25832L9.58332 1.91668L2.53719e-07 11.5L9.58332 21.0833Z"
+                                                    fill="#337D5A" />
+                                            </svg>
+                                        </div>
+                                        <img src="./img/йогурт3.png" alt="">
+                                        <div class="swiper-button-next-unique">
+                                            <svg width="23" height="23" viewBox="0 0 23 23" fill="none"
+                                                xmlns="http://www.w3.org/2000/svg">
+                                                <path
+                                                    d="M13.4167 21.0833L12.075 19.7417L19.3584 12.4583H0V10.5417H19.3584L12.075 3.25831L13.4167 1.91668L23 11.5L13.4167 21.0833Z"
+                                                    fill="#337D5A" />
+                                            </svg>
+                                        </div>
+                                    </div>
+                                    <div class="slide-info">
+                                        <div class="slide-info-wrapper">
+                                            <h5>Грецкий орех</h5>
+                                            <p class="art">Арт: 0091</p>
+                                            <p class="infnuts">Орех сладкий,классический,<br>очищенный</p>
+                                            <div class="pac-info">
+                                                <div class="pac-info_weight">
+                                                    <img src="./img/weigher.png" alt="">
+                                                    <div class="pac-info_weight-text">
+                                                        <p>Масса:</p>
+                                                        <p class="weight-num">40г</p>
+                                                    </div>
+                                                </div>
+                                                <div class="pac-info_pac">
+                                                    <img src="./img/pac.png" alt="">
+                                                    <div class="pac-info_pac-text">
+                                                        <p>Упаковка</p>
+                                                        <p class="pac-type">вакуумная</p>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="price">
+                                            <p>Цена:
+                                                <span>
+                                                    от 21 грн.
+                                                </span>
+                                                <span>
+                                                </span>
+                                            </p>
+                                            <button>
+                                                Купить
+                                            </button>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <a href="store.html">
+                            <button id="prod" class="secondslide-btn">Перейти в магазин</button>
+                        </a>
+                    </div>
+                </div>
+                <div class="thirdslide">
+                    <div class="thirdslide-wrapper">
+                        <div class="thirdslide-text">
+                            <h1>О производителе</h1>
+                            <p><span>Сельскохозяйственный обслуживающий кооператив
+                                    “Орех Причерноморья”</span> выращивает смешанные сады
+                                ореха грецкого с фундуком, а также ореха грецкого
+                                с шиповником, на площади более 150 гектаров. </p>
+                            <p>Помимо этого кооператив занимается выращиванием
+                                посадочного материала, саженцов привитого и непривитого
+                                грецкого ореха, фундука и шиповника.</p>
+                            <button>Подробнее</button>
+                        </div>
+                        <div class="thirdslide-video">
+                            <div class="swiper myThirdSwiper">
+                                <div class="swiper-wrapper">
+                                    <!-- Slides -->
+                                    <div class="swiper-slide">
+                                        <div class="thirdslide-video-bg"></div>
+                                        <a href="">
+                                            <svg width="61" height="61" viewBox="0 0 61 61" fill="none"
+                                                xmlns="http://www.w3.org/2000/svg">
+                                                <circle cx="30.5" cy="30.5" r="29.5" stroke="white" stroke-width="2" />
+                                                <path d="M38.2745 30.5001L27.5098 38.2688V22.7313L38.2745 30.5001Z"
+                                                    fill="white" />
+                                            </svg>
+                                        </a>
+                                        <div class="thirdslide-video-nav">
+                                            <div class="swiper-button-prev">
+                                                <svg width="23" height="23" viewBox="0 0 23 23" fill="none"
+                                                    xmlns="http://www.w3.org/2000/svg">
+                                                    <path
+                                                        d="M9.58332 21.0833L10.925 19.7417L3.64164 12.4583H23V10.5417H3.64164L10.925 3.25832L9.58332 1.91668L2.53719e-07 11.5L9.58332 21.0833Z"
+                                                        fill="#337D5A" />
+                                                </svg>
+                                            </div>
+                                            <div class="swiper-button-next">
+                                                <svg width="23" height="23" viewBox="0 0 23 23" fill="none"
+                                                    xmlns="http://www.w3.org/2000/svg">
+                                                    <path
+                                                        d="M13.4167 21.0833L12.075 19.7417L19.3584 12.4583H0V10.5417H19.3584L12.075 3.25831L13.4167 1.91668L23 11.5L13.4167 21.0833Z"
+                                                        fill="#337D5A" />
+                                                </svg>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="swiper-slide">
+                                        <div class="thirdslide-video-bg"></div>
+                                        <a href="">
+                                            <svg width="61" height="61" viewBox="0 0 61 61" fill="none"
+                                                xmlns="http://www.w3.org/2000/svg">
+                                                <circle cx="30.5" cy="30.5" r="29.5" stroke="white" stroke-width="2" />
+                                                <path d="M38.2745 30.5001L27.5098 38.2688V22.7313L38.2745 30.5001Z"
+                                                    fill="white" />
+                                            </svg>
+                                        </a>
+                                        <div class="thirdslide-video-nav">
+                                            <div class="swiper-button-prev">
+                                                <svg width="23" height="23" viewBox="0 0 23 23" fill="none"
+                                                    xmlns="http://www.w3.org/2000/svg">
+                                                    <path
+                                                        d="M9.58332 21.0833L10.925 19.7417L3.64164 12.4583H23V10.5417H3.64164L10.925 3.25832L9.58332 1.91668L2.53719e-07 11.5L9.58332 21.0833Z"
+                                                        fill="#337D5A" />
+                                                </svg>
+                                            </div>
+                                            <div class="swiper-button-next">
+                                                <svg width="23" height="23" viewBox="0 0 23 23" fill="none"
+                                                    xmlns="http://www.w3.org/2000/svg">
+                                                    <path
+                                                        d="M13.4167 21.0833L12.075 19.7417L19.3584 12.4583H0V10.5417H19.3584L12.075 3.25831L13.4167 1.91668L23 11.5L13.4167 21.0833Z"
+                                                        fill="#337D5A" />
+                                                </svg>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    ...
+                                </div>
+
+                                <div class="swiper-button-prev"></div>
+                                <div class="swiper-button-next"></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="measuring">
+                    <div class="measuring-wrapper">
+                        <div class="measuring_part">
+                            <p class="measuring-main">240<sup>га</sup></p>
+                            <p>Смешаных садов</p>
+                        </div>
+                        <div class="measuring_part">
+                            <p class="measuring-main">1<sup>га</sup></p>
+                            <p>Тепличного комплекса</p>
+                        </div>
+                        <div class="measuring_part">
+                            <p class="measuring-main">10<sup>га</sup></p>
+                            <p>Первая промышленная плантация шиповника в Украине</p>
+                        </div>
+                        <div class="measuring_part">
+                            <p class="measuring-main">80<sup>%</sup></p>
+                            <p>Приживаемости саженцев</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="fourthslide">
+                    <div class="fourthslide-bg"></div>
+                    <div class="fourthslide_content-wrapper">
+                        <h1>Наша главная цель - получить максимальную прибыль с одного гектара</h1>
+                        <a href="">
+                            <svg width="61" height="61" viewBox="0 0 61 61" fill="none"
+                                xmlns="http://www.w3.org/2000/svg">
+                                <circle cx="30.5" cy="30.5" r="29.5" stroke="white" stroke-width="2" />
+                                <path d="M38.2745 30.5001L27.5098 38.2688V22.7313L38.2745 30.5001Z" fill="white" />
+                            </svg>
+                        </a>
+                        <p>Cмотреть видео о производстве</p>
+                    </div>
+                </div>
+                <div class="fifthslide">
+                    <div class="fifthslide-wrapper">
+                        <h1 class="prod-title">О пользе продукта</h1>
+                        <p>Каждый вид ореха содержит свой неповторимый уникальный
+                            баланс витаминов, и микроэлементов </p>
+                        <div class="fifthslide_slides">
+                            <div class="slide">
+                                <div class="walnut"></div>
+                                <div class="nut-wrapper">
+                                    <div class="preview">
+                                        <img src="./img/minwalnut.png" alt="">
+                                        <h1>Грецкий орех</h1>
+                                        <p class="nut-content">Дерево жизни - так часто величают грецкий орех, поскольку
+                                            с давних пор он
+                                            кормил, восстанавливал силы и лечил человека.
+                                        </p>
+                                        <p class="nut-content">Даже небольшая горсть грецких орехов - это кладезь
+                                            витаминов
+                                            и хорошая профилактика многих заболеваний</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="slide">
+                                <div class="hazelnut"></div>
+                                <div class="nut-wrapper">
+                                    <div class="preview">
+                                        <img src="./img/minhazelnut.png" alt="">
+                                        <h1>Фундук</h1>
+                                        <p class="nut-content">Дерево жизни - так часто величают грецкий орех, поскольку
+                                            с давних пор он
+                                            кормил, восстанавливал силы и лечил человека.
+                                        </p>
+                                        <p class="nut-content">Даже небольшая горсть грецких орехов - это кладезь
+                                            витаминов
+                                            и хорошая профилактика многих заболеваний</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="slide">
+                                <div class="rosehip"></div>
+                                <div class="nut-wrapper">
+                                    <div class="preview">
+                                        <img src="./img/minrosehip.png" alt="">
+                                        <h1>Шиповник</h1>
+                                        <p class="nut-content">Дерево жизни - так часто величают грецкий орех, поскольку
+                                            с давних пор он
+                                            кормил, восстанавливал силы и лечил человека.
+                                        </p>
+                                        <p class="nut-content">Даже небольшая горсть грецких орехов - это кладезь
+                                            витаминов
+                                            и хорошая профилактика многих заболеваний</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="sixthslide">
+                    <div class="sixthslide-bg"></div>
+                    <div class="sixthslide-wrapper">
+                        <img src="./img/eco.png" alt="">
+                        <h1>Эко продукция</h1>
+                        <p>Выращиваем каждое деревцо с любовью, на экологически
+                            чистой земле, без использования пестицидов и химии</p>
+                    </div>
+                </div>
+                <div id="news" class="seventhslide">
+                    <div class="seventhslide-wrapper">
+                        <div class="seventhslide-header">
+                            <div class="seventhslide-title">
+                                <h1>Новости</h1>
+                                <p>Свежие новости и полезная информация</p>
+                            </div>
+                            <div class="seventhslide-nav">
+                                <div class="swiper-button-prev-news">
+                                    <svg width="23" height="23" viewBox="0 0 23 23" fill="none"
+                                        xmlns="http://www.w3.org/2000/svg">
+                                        <path
+                                            d="M9.58332 21.0833L10.925 19.7417L3.64164 12.4583H23V10.5417H3.64164L10.925 3.25832L9.58332 1.91668L2.53719e-07 11.5L9.58332 21.0833Z"
+                                            fill="#337D5A" />
+                                    </svg>
+                                </div>
+                                <div class="swiper-button-next-news">
+                                    <svg width="23" height="23" viewBox="0 0 23 23" fill="none"
+                                        xmlns="http://www.w3.org/2000/svg">
+                                        <path
+                                            d="M13.4167 21.0833L12.075 19.7417L19.3584 12.4583H0V10.5417H19.3584L12.075 3.25831L13.4167 1.91668L23 11.5L13.4167 21.0833Z"
+                                            fill="#337D5A" />
+                                    </svg>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="news-wrapper">
+                            <div class="swiper myNewsSwiper">
+                                <div class="swiper-wrapper">
+                                    <div class="swiper-slide news-slide">
+                                        <div class="news-img">
+                                            <a class="watch" href="">
+                                                <svg width="61" height="61" viewBox="0 0 61 61" fill="none"
+                                                    xmlns="http://www.w3.org/2000/svg">
+                                                    <circle cx="30.5" cy="30.5" r="29.5" stroke="white"
+                                                        stroke-width="2" />
+                                                    <path d="M38.2745 30.5001L27.5098 38.2688V22.7313L38.2745 30.5001Z"
+                                                        fill="white" />
+                                                </svg>
+                                            </a>
+                                            <div class="news-bg1"></div>
+                                        </div>
+                                        <div class="news-info">
+                                            <p class="news-info_date">12.04.2019</p>
+                                            <h3>Центр поддержки экспорта, в студии
+                                                Павел Тулба</h3>
+                                            <p class="news-info_text">Как уже упоминал Павел Тулба, шиповник цветёт. Эта
+                                                культура очень
+                                                недооценена среди наших садоводов, не смотря на большой спрос в Европе и
+                                                отличную...</p>
+                                            <a href="">Читать &#8594;</a>
+                                        </div>
+                                    </div>
+                                    <div class="swiper-slide news-slide">
+                                        <div class="news-img">
+                                            <a class="watch" href="">
+                                                <svg width="61" height="61" viewBox="0 0 61 61" fill="none"
+                                                    xmlns="http://www.w3.org/2000/svg">
+                                                    <circle cx="30.5" cy="30.5" r="29.5" stroke="white"
+                                                        stroke-width="2" />
+                                                    <path d="M38.2745 30.5001L27.5098 38.2688V22.7313L38.2745 30.5001Z"
+                                                        fill="white" />
+                                                </svg>
+                                            </a>
+                                            <div class="news-bg2"></div>
+                                        </div>
+                                        <div class="news-info">
+                                            <p class="news-info_date">12.04.2019</p>
+                                            <h3>В Одесской области состоялся масштабный
+                                                торгово - экспортный форум</h3>
+                                            <p class="news-info_text">Как уже упоминал Павел Тулба, шиповник цветёт. Эта
+                                                культура очень недооценена среди наших садоводов, не смотря на большой
+                                                спрос в Европе
+                                                и отличную...</p>
+                                            <a href="">Читать &#8594;</a>
+                                        </div>
+                                    </div>
+                                    <div class="swiper-slide news-slide">
+                                        <div class="news-img">
+                                            <a class="watch" href="">
+                                                <svg width="61" height="61" viewBox="0 0 61 61" fill="none"
+                                                    xmlns="http://www.w3.org/2000/svg">
+                                                    <circle cx="30.5" cy="30.5" r="29.5" stroke="white"
+                                                        stroke-width="2" />
+                                                    <path d="M38.2745 30.5001L27.5098 38.2688V22.7313L38.2745 30.5001Z"
+                                                        fill="white" />
+                                                </svg>
+                                            </a>
+                                            <div class="news-bg3"></div>
+                                        </div>
+                                        <div class="news-info">
+                                            <p class="news-info_date">12.04.2019</p>
+                                            <h3>Сертификация органического
+                                                производителя</h3>
+                                            <p class="news-info_text">Как уже упоминал Павел Тулба, шиповник цветёт. Эта
+                                                культура очень
+                                                недооценена среди наших садоводов, не смотря на большой спрос в Европе и
+                                                отличную...</p>
+                                            <a href="">Читать &#8594;</a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <button>Смотреть все новости</button>
+                        </div>
+                    </div>
+                </div>
+                <div id="cont" class="contacts">
+    <div class="contacts-wrapper">
+        <div class="contacts-info">
+            <h1>Контакты</h1>
+            <div class="numbers">
+                <img src="./img/telephone-handle-silhouette.png" alt="">
+                <div class="num-wrap">
+                    <p>+38 (095) 711 11 11</p>
+                    <p>+38 (095) 711 11 11</p>
+                </div>
+                <div class="img-wrap">
+                    <img src="./img/whatsapp.png" alt="">
+                    <img src="./img/telegram.png" alt="">
+                    <img src="./img/viber.png" alt="">
+                </div>
+            </div>
+            <p class="email"><img src="./img/email.png" alt="">nuts@nbsc.com.ua</p>
+            <h3 class="office"><img src="./img/house-black-silhouette-without-door.png" alt="">Офис и отдел продаж</h3>
+            <p>Украина, Одесская обл,</p>
+            <p>ул. Космонавтов, 32</p>
+            <h3 class="production"><img src="./img/tree.png" alt="">Производство</h3>
+            <p>Украина, Одесская обл,</p>
+            <p>с. Яськи, ул. Центральная, 232</p>
+        </div>
+        <div class="map-wrapper">
+            <div class="map"></div>
+        </div>
+    </div>
+</div>
+            </div>
+            <div class="footer">
+    <div class="footer-wrapper">
+        <div class="footer-top">
+            <img src="./img/MobileLogo.png" alt="">
+            <div class="nav-wrapper">
+                <a class="nav__item" href="#store">Магазин</a>
+                <a class="nav__item" href="#prod">О производтсве</a>
+                <a class="nav__item" href="">Оплата и доставка</a>
+                <a class="nav__item" href="">Оптовым и корпоративным клиентам</a>
+                <a class="nav__item" href="#news">Новости и статьи</a>
+                <a class="nav__item" href="#cont">Контакты</a>
+            </div>
+        </div>
+        <div class="footer-bot">
+            <p>Разработано <span>АрчиДольдом</span></p>
+            <p>Copyright © 2019. Все права защищены</p>
+            <div class="socialnet-wrapper">
+                <a href="https://www.facebook.com/">
+                    <svg width="15" height="15" viewBox="0 0 15 15" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <path
+                            d="M3.95336 7.989H5.5976V14.7581C5.5976 14.8917 5.70589 15 5.83954 15H8.62741C8.76105 15 8.86935 14.8917 8.86935 14.7581V8.02089H10.7595C10.8824 8.02089 10.9858 7.92866 10.9999 7.80658L11.287 5.31455C11.2948 5.24598 11.2731 5.17732 11.2272 5.12589C11.1813 5.0744 11.1156 5.04494 11.0467 5.04494H8.86944V3.48281C8.86944 3.0119 9.12299 2.77311 9.62312 2.77311C9.69439 2.77311 11.0467 2.77311 11.0467 2.77311C11.1803 2.77311 11.2886 2.66477 11.2886 2.53118V0.243726C11.2886 0.110081 11.1803 0.00179032 11.0467 0.00179032H9.08481C9.07097 0.0011129 9.04025 0 8.99496 0C8.65455 0 7.47134 0.0668225 6.5367 0.926661C5.50112 1.8795 5.64507 3.02037 5.67947 3.21818V5.04489H3.95336C3.81972 5.04489 3.71143 5.15318 3.71143 5.28682V7.74702C3.71143 7.88066 3.81972 7.989 3.95336 7.989Z"
+                            fill="#93B474" />
+                    </svg>
+                </a>
+                <a href="https://www.instagram.com/_.verbetskiy._/">
+                    <svg width="15" height="15" viewBox="0 0 15 15" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <path
+                            d="M10.947 0H4.05296C1.81816 0 0 1.81816 0 4.05296V10.947C0 13.1818 1.81816 15 4.05296 15H10.947C13.1818 15 15 13.1818 15 10.947V4.05296C15 1.81816 13.1818 0 10.947 0ZM13.7882 10.947C13.7882 12.5136 12.5137 13.7882 10.947 13.7882H4.05296C2.48637 13.7882 1.21184 12.5137 1.21184 10.947V4.05296C1.21184 2.48637 2.48634 1.21184 4.05296 1.21184H10.947C12.5136 1.21184 13.7882 2.48634 13.7882 4.05296V10.947Z"
+                            fill="#323232" />
+                        <path
+                            d="M10.857 6.97678C10.7504 6.25763 10.4223 5.60583 9.9082 5.09176C9.39413 4.57771 8.74233 4.24959 8.02321 4.14298C7.69579 4.09443 7.36382 4.09443 7.03643 4.14298C6.14768 4.27478 5.36349 4.74476 4.82827 5.46637C4.29304 6.18799 4.07082 7.07486 4.20263 7.96355C4.33444 8.85227 4.80442 9.63646 5.52603 10.1717C6.11185 10.6062 6.80648 10.8344 7.5227 10.8344C7.68873 10.8344 7.85595 10.8221 8.02318 10.7973C8.91193 10.6655 9.69612 10.1955 10.2313 9.47393C10.7666 8.75234 10.9888 7.8655 10.857 6.97678ZM7.84543 9.59858C7.27693 9.68302 6.70959 9.54078 6.24796 9.19839C5.78633 8.85599 5.48569 8.35432 5.4014 7.78581C5.31708 7.2173 5.4592 6.64997 5.8016 6.18834C6.14402 5.72671 6.64567 5.42606 7.2142 5.34175C7.31891 5.32622 7.42435 5.31845 7.52979 5.31845C7.63523 5.31845 7.7407 5.32622 7.84541 5.34177C8.78967 5.48178 9.5182 6.21028 9.65824 7.15458C9.83226 8.32815 9.01907 9.42456 7.84543 9.59858Z"
+                            fill="#323232" />
+                        <path
+                            d="M11.7202 3.27978C11.6074 3.16695 11.4512 3.10229 11.2917 3.10229C11.1323 3.10229 10.9761 3.16692 10.8633 3.27978C10.7504 3.39263 10.6858 3.54855 10.6858 3.70824C10.6858 3.86794 10.7504 4.02386 10.8633 4.13671C10.9761 4.24953 11.1323 4.31419 11.2917 4.31419C11.4512 4.31419 11.6074 4.24956 11.7202 4.13671C11.833 4.02386 11.8977 3.86768 11.8977 3.70824C11.8977 3.54878 11.833 3.3926 11.7202 3.27978Z"
+                            fill="#323232" />
+                    </svg>
+                </a>
+                <a href="https://www.youtube.com/">
+                    <svg width="18" height="18" viewBox="0 0 18 18" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <path
+                            d="M17.2984 14.2464C16.6487 15.0188 15.4491 15.3339 13.1581 15.3339H4.84177C2.49834 15.3339 1.27841 14.9985 0.631103 14.1762C0 13.3744 0 12.1931 0 10.5581V7.44185C0 4.27437 0.7488 2.66616 4.84177 2.66616H13.1581C15.1449 2.66616 16.2458 2.94417 16.958 3.62579C17.6884 4.32477 18 5.46603 18 7.44185V10.5581C18 12.2823 17.9512 13.4706 17.2984 14.2464ZM11.5561 8.56975L7.77966 6.59608C7.69523 6.55195 7.60291 6.53006 7.5107 6.53006C7.4063 6.53006 7.30214 6.55817 7.20987 6.61403C7.03614 6.7193 6.93006 6.9076 6.93006 7.11071V11.0454C6.93006 11.2482 7.03585 11.4363 7.20923 11.5416C7.38267 11.6469 7.59838 11.6541 7.77832 11.5607L11.5547 9.5997C11.7469 9.49995 11.8675 9.3016 11.8678 9.08519C11.868 8.86861 11.7479 8.66997 11.5561 8.56975Z"
+                            fill="#323232" />
+                    </svg>
+                </a>
+            </div>
+        </div>
+    </div>
+</div>
+        </div>
+    </div>
+    <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+    <script src="./js/script.js"></script>
+</body>
+
+</html>
