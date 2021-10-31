@@ -113,3 +113,24 @@ for (let anchor of anchors) {
     });
   });
 }
+
+var swiper5 = new Swiper(".GallerySwiper", {
+  slidesPerView: 1,
+  centeredSlides: true,
+  initialSlide: 1,
+  loop: true,
+  navigation: {
+    nextEl: ".swiper-button-next",
+    prevEl: ".swiper-button-prev",
+  },
+  breakpoints: {
+    1024: {
+      slidesPerView: 2,
+      spaceBetween: 20,
+    },
+    1280: {
+      slidesPerView: 3,
+      spaceBetween: 20,
+    },
+  },
+});
