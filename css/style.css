@@ -901,7 +901,6 @@ body {
   -webkit-box-direction: normal;
       -ms-flex-direction: column;
           flex-direction: column;
-  margin-bottom: 20px;
 }
 
 .main-genpage .measuring_part .measuring-main {
@@ -1535,7 +1534,7 @@ body {
   z-index: 2;
   position: absolute;
   margin-top: 100px;
-  left: 30%;
+  left: 24%;
   color: white;
 }
 
@@ -1940,6 +1939,99 @@ body {
   background-image: url("../img/13.png") !important;
 }
 
+.payment {
+  background-color: #F5F5F580;
+}
+
+.payment-bg {
+  background-image: url("../img/Untitled-23.png") !important;
+}
+
+.payment-block {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+.payment-block .nav-wrapper {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  height: auto;
+  max-width: 1300px;
+}
+
+.payment-block .nav__item {
+  font-size: 15px;
+  text-align: center;
+  font-weight: 500;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  text-decoration: none;
+  color: var(--darkblue);
+  padding-top: 10px;
+  padding-bottom: 10px;
+  margin: 5px;
+}
+
+.payment-block .nav__item:hover {
+  color: var(--lightfreen);
+  border-bottom: 1px solid var(--green);
+}
+
+.payment-block .waysofpayment {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  margin: auto;
+}
+
+.payment-block .waysofpayment .paymentPic {
+  width: 600px;
+}
+
+.payment-block .waysofpayment .waysofpayment-wrapper {
+  margin-right: 20px;
+}
+
+.payment-block .waysofpayment .waysofpayment-wrapper > h3 {
+  text-align: center;
+  margin-top: 20px;
+}
+
+.payment-block .waysofpayment .waysofpayment-wrapper > div {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin: 20px 0;
+}
+
+.payment-block .waysofpayment .waysofpayment-wrapper > div h3 {
+  text-align: start;
+}
+
 @media (min-width: 360px) {
   .main-genpage .firstslide-content p {
     width: 360px;
@@ -2322,6 +2414,21 @@ body {
 
   .ceo-hist p {
     margin-top: 40px;
+  }
+
+  .payment-block .nav-wrapper {
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: row;
+            flex-direction: row;
+    width: 100%;
+    margin: auto;
+    -ms-flex-pack: distribute;
+        justify-content: space-around;
+  }
+
+  .payment-block .waysofpayment p {
+    width: 400px;
   }
 }
 
