@@ -80,7 +80,6 @@ var swiper3 = new Swiper(".myThirdSwiper", {
 
 var swiper4 = new Swiper(".myNewsSwiper", {
   slidesPerView: 1,
-  centeredSlides: true,
   initialSlide: 1,
   loop: true,
   navigation: {
