@@ -2466,6 +2466,12 @@ body {
         justify-content: space-around;
   }
 
+  .payment-block .nav__item {
+    -webkit-box-pack: start;
+        -ms-flex-pack: start;
+            justify-content: start;
+  }
+
   .payment-block .waysofpayment p {
     width: 400px;
   }
